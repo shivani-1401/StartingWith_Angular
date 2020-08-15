@@ -1,7 +1,17 @@
-
 <!-- h1 with heading or title -->
-<h1></h1>
+<h1>{{title}}</h1>
 <!-- table to display the content of all male employees -->
 <table>
+    <tr *ngFor="let emp of employees">
+        <div *ngIf="emp.gender === 'Male'">
+            <td>{{emp.id}} </td>
+            <td>{{emp.firstname}}</td>
+            <td>{{emp.lastname}}</td>
+            <td>{{emp.address}}</td>
+            <td>{{emp.email}}</td>
+            <td>{{emp.password}}</td>
+            <td>{{emp.gender}}</td>
+            <td>{{emp.date_of_birth}}</td>
+        </div>
+    </tr>
 </table>
-  
