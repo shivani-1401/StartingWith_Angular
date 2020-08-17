@@ -64,8 +64,7 @@ Create an Angular application which will display the hard coded value for an emp
 
 1. You are expecteded to display title with h1 header tag of HTML.
 2. Rest of the details should be displayed within a table and only the records of the male employees should be displayed.
-3. Ensure following commands succeed in your local machine before submitting your code for preliminary review as described next-
-
+3. Ensure following commands succeed in your local machine -
 npm install \
 npm run build \
 npm run lint \
